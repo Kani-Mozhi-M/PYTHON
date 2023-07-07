@@ -26,3 +26,11 @@ print("I am raji my weight is {}".format(weight)) #I am raji my weight is 60
 
 print("I BOUGHT {0} AND {1} . WHAT YOU LIKE TO HAVE? ".format("APPLE","ORANGES"))
 #I BOUGHT APPLE AND ORANGES . WHAT YOU LIKE TO HAVE?
+
+print()
+for i in range(4, 6):
+    print("no.{0} square is{1} and cube is{2} ".format(i, i ** 2, i ** 3))
+
+for i in range(4, 6):
+    print("no.{0} square is {1:<2} and cube is {2:^4} ".format(i, i ** 2, i ** 3))
+
